@@ -18,6 +18,6 @@ data "aws_subnets" "private" {
 
     filter {
         name   = "default-for-az"
-        values = ["false"]
+        values = ["true"]
     }
 }

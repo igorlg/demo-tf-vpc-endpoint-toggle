@@ -23,4 +23,8 @@ module "services" {
 }
 ```
 
-The module will create the necessary VPC Interface endpoints required by each AWS service in the Default VPC.
+The module will create the necessary VPC Interface endpoints required by each AWS service.
+
+# Note
+
+In this example, the VPC and Subnets where Endpoints will be created are the default VPC and the default Subnet for each AZ.
